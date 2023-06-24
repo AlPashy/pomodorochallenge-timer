@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Challenge</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pomodoro Challenge</h1>
+    <div class="goal-container">
+      <span>Ziel: </span>
+      <span id="goal"></span>
+    </div>
+    <div class="timer">
+      <span id="minutes">25</span>:<span id="seconds">00</span>
+    </div>
+    <button id="startBtn">Start</button>
+    <button id="resetBtn">Reset</button>
+    <button id="breakBtn">Break</button>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Dein Ziel eingeben</h2>
+      <input type="text" id="goalInput">
+      <button id="goalBtn">OK</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
