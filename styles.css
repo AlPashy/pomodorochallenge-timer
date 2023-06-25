@@ -1,6 +1,6 @@
 body {
     background-color: #222;
-    color: #fff;
+    color: plum;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -83,4 +83,3 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
-  
